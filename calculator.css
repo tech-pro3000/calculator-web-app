@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+
+.calc-button {
+  min-height: 64px;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 12px;
+  transition: all 0.1s ease;
+  user-select: none;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.calc-button:active {
+  transform: scale(0.96);
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.15);
+  
+}
+
+.display-area {
+  min-height: 120px;
+  border-radius: 16px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  background: linear-gradient(135deg, #e5e5f2 0%, #88a0e3 50%, #81fa71 100%);
+}
+
+.number-btn {
+  background: #ffffff;
+  color: #1e293b;
+}
+
+.number-btn:hover {
+  background: linear-gradient(135deg, #e5e5f2 0%, #88a0e3 50%, #81fa71 100%);
+}
+
+.operator-btn {
+  background: #3b82f6;
+  color: #ffffff;
+}
+.h-full  .w-full {
+  background: linear-gradient(135deg, #e5e5f2 0%, #88a0e3 50%, #81fa71 100%);
+}
+
+.operator-btn:hover {
+  background: linear-gradient(135deg, #e5e5f2 0%, #88a0e3 50%, #81fa71 100%);
+}
+.bg-white{
+  background-image: url("/calculator web app/images/images.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+.action-btn {
+  background: #64748b;
+  color: #ffffff;
+}
+
+.action-btn:hover {
+  background: #475569;
+}
+
+.equals-btn {
+  background: #10b981;
+  color: #ffffff;
+}
+
+.equals-btn:hover {
+  background: #059669;
+}
+
+@media (max-width: 640px) {
+  .calc-button {
+    min-height: 56px;
+    font-size: 20px;
+  }
+}
