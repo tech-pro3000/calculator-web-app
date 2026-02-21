@@ -50,7 +50,7 @@
   background: linear-gradient(135deg, #e5e5f2 0%, #88a0e3 50%, #81fa71 100%);
 }
 .bg-white{
-  background-image: url("/calculator web app/images/images.jpeg");
+  background-image: url("images/images.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
